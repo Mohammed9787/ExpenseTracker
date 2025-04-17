@@ -48,6 +48,27 @@ export class AddExpenseComponent {
      alert('Expense Name should not be blank');
     return;
     }
+    if (this.expName.length < 4) {
+      alert('Expense name atleast 4 character');
+      return;
+    }
+    const expensePartten = /[A-Za-z]+$/;
+      if (!expensePartten.test(this.expName)) {
+      alert ('expense should not contain 1 letter');
+      return;
+      }
+      if (this.expenseAmount<=0){
+        alert('amount has to be greater than 0');
+        return;
+      }
+      if (this.remarks.length<=4){
+        alert('remark should have atlest 4 letters');
+        return;
+      }
+      if (this.date==''){
+        alert('date is required ');
+        return;
+      }
     const userInfo = JSON.parse(localStorage.getItem('userInfo') ?? '');
     const payload: any = {
       expName: this.expName,

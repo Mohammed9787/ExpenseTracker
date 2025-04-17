@@ -37,8 +37,16 @@
   
   h2 {
     text-align: center;
-    background-image: radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );
-    padding: 15px;
+    background-image: radial-gradient(
+    circle 759px at -6.7% 50%,
+    rgb(4, 174, 241) 0%,
+    rgb(232, 45, 210) 26.2%,
+    rgb(189, 243, 82) 50.6%,
+    rgb(18, 136, 191) 74.1%,
+    rgb(228, 217, 214) 100.3%
+  );
+  padding: 15px;
+
   }
   
   .fa-user-circle {

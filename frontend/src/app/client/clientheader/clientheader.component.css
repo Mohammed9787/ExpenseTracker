@@ -2,15 +2,15 @@
 {
     background-color: #f1f4e9;
     align-items: center;
-    color: rgb(72, 16, 85);
+    color: rgb(204, 97, 58);
     font-size: 20px;
-    text-decoration-color: rgb(72, 16, 85);
+    text-decoration-color: rgb(219, 110, 22);
     font-weight: 500;
     height: 100%;
     padding: 0px 10px 0px 10px;
 }
 .main > .selected {
-    background: rgb(178,231,170);
+    background: rgb(160, 214, 192);
     display: flex;
     align-items: center;
     padding: 0 10px 0 10px;
